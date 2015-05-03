@@ -1,0 +1,13 @@
+PODS:
+  - Alamofire (1.2.0)
+  - GRUnit (1.1.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - GRUnit
+
+SPEC CHECKSUMS:
+  Alamofire: d765c5c1713aa64106b0228aaa600a1e6851f68d
+  GRUnit: 3a60546a0d42bc0edb83c4e755f9620517cd7af7
+
+COCOAPODS: 0.36.4

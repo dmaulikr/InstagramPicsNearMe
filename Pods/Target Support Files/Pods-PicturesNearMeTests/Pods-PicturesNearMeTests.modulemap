@@ -1,0 +1,6 @@
+framework module Pods_PicturesNearMeTests {
+  umbrella header "Pods-PicturesNearMeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
