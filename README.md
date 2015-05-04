@@ -11,7 +11,7 @@ Used Xcode 6.3 (6D570) and iOS SDK 8.3. It will properly work in previous SDKs a
 
 ## Tests
 
-We're using XCTest for this project..
+We're using XCTest for this project.
 
 There is one test against the InstagramApiRepository class testing the media/search endpoint for a New York latitude longitude and 3000 meters of distance. The testing is really connetcing to the Instagram service. Usually in a larger project we would break the repository and create a service (context) that will deal with the calls and serve data to the Repository.
 This would allow to inject implementation code (personally I use a Service Locator class, not heavy DI frameworks, depends the project) in a protocol and mock the instagram service while testing or working.
